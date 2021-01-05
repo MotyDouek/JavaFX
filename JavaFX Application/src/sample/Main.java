@@ -13,7 +13,7 @@ public class Main extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         setUserAgentStylesheet(STYLESHEET_CASPIAN);
 
-        primaryStage.setTitle("Hello World");
+        primaryStage.setTitle("JavaFX Application");
         primaryStage.setScene(new Scene(root, 600, 275));
         primaryStage.show();
     }
